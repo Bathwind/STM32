@@ -1,0 +1,27 @@
+#include "delay.h"
+#include "sys.h"
+#include "usart.h"
+#include "lcd.h"
+#include "key.h"  
+#include "24cxx.h" 
+#include "myiic.h"
+#include "usmart.h"
+#include "vl53l0x.h"
+#include "tim.h"
+#include "oled.h"
+#include "pwm.h"
+int main(void)
+{ 
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//…Ë÷√÷–∂œ”≈œ»º∂∑÷◊È2
+	delay_init();//—” ±∫Ø ˝≥ı ºªØ	  
+	uart_init(115200);//¥Æø⁄≥ı ºªØŒ™115200 
+	usmart_dev.init(72);//≥ı ºªØUSMART	Ø 
+	LCD_Init();//LCD≥ı ºªØ
+	KEY_Init();//∞¥º¸≥ı ºªØ                             
+	while(vl53l0x_init(&vl53l0x_dev)){ }
+	TIM1_PWM_Init(899,0);//pwm≥ı ºªØ 
+  tim2_init(4,7199);//∂® ±∆˜2÷–∂œ≥ı ºªØ
+	while(1)
+	{
+	}
+}

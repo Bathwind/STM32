@@ -1,0 +1,138 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 111 28381, mmm, LIC=GE7Z9-4UNWM-GN2A5-G4XJM-43UTA-CGMDC
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  E:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      UL2CM3.DLL V1.157.5.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\28381\Desktop\Ð£Èü³ÌÐò\pid\USER\windsystem.uvprojx
+Project File Date:  04/26/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'E:\keil5\ARM\ARMCC\Bin'
+Build target 'windsystem'
+compiling vl53l0x_api.c...
+..\HARDWARE\key.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(53): error:  #65: expected a ";"
+  VL53L0X_Error VL53L0X                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        _GetVersion(VL53L0X_Version_t *pVersion)
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(216): warning:  #12-D: parsing restarts here after previous syntax error
+  			Status = VL53L0X_StaticInit(Dev);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(218): error:  #169: expected a declaration
+  		if (Status == VL53L0X_ERROR_NONE)
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(222): error:  #169: expected a declaration
+  	}
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(225): error:  #169: expected a declaration
+  	return Status;
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(226): error:  #169: expected a declaration
+  }
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(389): warning:  #12-D: parsing restarts here after previous syntax error
+  	
+L53L0X_SETDEVICESPECIFICPARAMETER(Dev, ReadDataFromDeviceDone, 0);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(397): error:  #18: expected a ")"
+  	
+ALDevDataSet(Dev, LinearityCorrectiveGain, 1000);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(397): error:  #77-D: this declaration has no storage class or type specifier
+  	
+ALDevDataSet(Dev, LinearityCorrectiveGain, 1000);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(400): error:  #18: expected a ")"
+  	
+ALDevDataSet(Dev, DmaxCalRangeMilliMeter, 400);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(400): error:  #77-D: this declaration has no storage class or type specifier
+  	
+ALDevDataSet(Dev, DmaxCalRangeMilliMeter, 400);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(400): error:  #148: variable "Dev" has already been initialized
+  	
+ALDevDataSet(Dev, DmaxCalRangeMilliMeter, 400);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(401): error:  #18: expected a ")"
+  	PALDevDataSet(Dev, DmaxCalSignalRateRtnMegaCps,
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(401): error:  #77-D: this declaration has no storage class or type specifier
+  	PALDevDataSet(Dev, DmaxCalSignalRateRtnMegaCps,
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(401): error:  #148: variable "Dev" has already been initialized
+  	PALDevDataSet(Dev, DmaxCalSignalRateRtnMegaCps,
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(406): error:  #18: expected a ")"
+  	
+L53L0X_SETDEVICESPECIFICPARAMETER(Dev, OscFrequencyMHz, 618660);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(406): error:  #77-D: this declaration has no storage class or type specifier
+  	
+L53L0X_SETDEVICESPECIFICPARAMETER(Dev, OscFrequencyMHz, 618660);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(406): error:  #148: variable "Dev" has already been initialized
+  	
+L53L0X_SETDEVICESPECIFICPARAMETER(Dev, OscFrequencyMHz, 618660);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(409): error:  #18: expected a ")"
+  	
+L53L0X_SETPARAMETERFIELD(Dev, XTalkCompensationRateMegaCps, 0);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(409): error:  #77-D: this declaration has no storage class or type specifier
+  	
+L53L0X_SETPARAMETERFIELD(Dev, XTalkCompensationRateMegaCps, 0);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(409): error:  #148: variable "Dev" has already been initialized
+  	
+L53L0X_SETPARAMETERFIELD(Dev, XTalkCompensationRateMegaCps, 0);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(412): error:  #77-D: this declaration has no storage class or type specifier
+  	Status = VL53L0X_GetDeviceParameters(Dev, &CurrentParameters);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(412): error:  #59: function call is not allowed in a constant expression
+  	Status = VL53L0X_GetDeviceParameters(Dev, &CurrentParameters);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(412): error:  #20: identifier "CurrentParameters" is undefined
+  	Status = VL53L0X_GetDeviceParameters(Dev, &CurrentParameters);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(413): error:  #169: expected a declaration
+  	if (Status == VL53L0X_ERROR_NONE) {
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(421): warning:  #12-D: parsing restarts here after previous syntax error
+  	
+ALDevDataSet(Dev, SigmaEstRefArray, 100);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(422): error:  #18: expected a ")"
+  	
+ALDevDataSet(Dev, SigmaEstEffPulseWidth, 900);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(422): error:  #77-D: this declaration has no storage class or type specifier
+  	
+ALDevDataSet(Dev, SigmaEstEffPulseWidth, 900);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(422): error:  #148: variable "Dev" has already been initialized
+  	
+ALDevDataSet(Dev, SigmaEstEffPulseWidth, 900);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(423): error:  #18: expected a ")"
+  	
+ALDevDataSet(Dev, SigmaEstEffAmbWidth, 500);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(423): error:  #77-D: this declaration has no storage class or type specifier
+  	
+ALDevDataSet(Dev, SigmaEstEffAmbWidth, 500);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(423): error:  #148: variable "Dev" has already been initialized
+  	
+ALDevDataSet(Dev, SigmaEstEffAmbWidth, 500);
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c(424): error:  #18: expected a ")"
+  	
+ALDevDataSet(Dev, targetRefRate, 0x0A00); /* 20 MCPS in 9:7 format */
+..\HARDWARE\VL53L0X\core\src\vl53l0x_api.c: 4 warnings, 30 errors
+"..\OBJ\key.axf" - 30 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil.STM32F1xx_DFP.1.0.5
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_windsystem
+  E:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
